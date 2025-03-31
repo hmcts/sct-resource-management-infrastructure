@@ -10,3 +10,7 @@ variable "product" {
   description = "sct-rm"
   default     = "sct-rm"
 }
+
+variable "jenkins_AAD_objectId" {
+  description = "The object ID of the user to be granted access to the key vault"
+}
